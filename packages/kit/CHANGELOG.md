@@ -1,5 +1,53 @@
 # @sveltejs/kit
 
+## 3.0.0-next.0
+### Major Changes
+
+
+- breaking: upgrade to cookie v1. Cookie names must now contain only ASCII characters ([#13386](https://github.com/sveltejs/kit/pull/13386))
+
+
+- breaking: require Node 22 or newer ([#12548](https://github.com/sveltejs/kit/pull/12548))
+
+
+- breaking: remove the `preloadStrategy` option. `modulepreload` will always be used ([#15256](https://github.com/sveltejs/kit/pull/15256))
+
+
+- breaking: default the cookie `path` option to `'/'` ([#15398](https://github.com/sveltejs/kit/pull/15398))
+
+
+- breaking: require `@sveltejs/vite-plugin-svelte` v7 ([#15371](https://github.com/sveltejs/kit/pull/15371))
+
+
+- breaking: require Svelte 5 ([#15371](https://github.com/sveltejs/kit/pull/15371))
+
+
+- chore: change `error`, `isHttpError`, `redirect`, and `isRedirect` to refer to public type instead of internal class ([#13036](https://github.com/sveltejs/kit/pull/13036))
+
+
+- breaking: require Vite 8 ([#15371](https://github.com/sveltejs/kit/pull/15371))
+
+
+- breaking: `svelte.config.js` will now be included in type checking ([#12090](https://github.com/sveltejs/kit/pull/12090))
+
+
+### Patch Changes
+
+
+- fix: server-render nested form value sets ([#15378](https://github.com/sveltejs/kit/pull/15378))
+
+
+- fix: use deep partial types for form remote functions `.value()` and `.set(...)` ([#14837](https://github.com/sveltejs/kit/pull/14837))
+
+
+- chore: remove dependency on kleur ([#12548](https://github.com/sveltejs/kit/pull/12548))
+
+
+- chore: remove dependency on `set-cookie-parser` ([#15384](https://github.com/sveltejs/kit/pull/15384))
+
+
+- fix: allow optional types for remote query/command/prerender functions ([#15293](https://github.com/sveltejs/kit/pull/15293))
+
 ## 2.53.1
 ### Patch Changes
 

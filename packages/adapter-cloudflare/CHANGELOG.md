@@ -1,5 +1,26 @@
 # @sveltejs/adapter-cloudflare
 
+## 8.0.0-next.0
+### Major Changes
+
+
+- breaking: upgrade `@cloudflare/workers-types` to 4.20260219.0 ([#15347](https://github.com/sveltejs/kit/pull/15347))
+
+
+- breaking: upgrade minimum `wrangler` version to ^4.67.0 ([#15347](https://github.com/sveltejs/kit/pull/15347))
+
+
+- breaking: remove `platform.context` in favour of `platform.ctx` ([#15347](https://github.com/sveltejs/kit/pull/15347))
+
+
+### Patch Changes
+
+
+- chore: check the `WORKERS_CI` environment variable to determine if we're building for Cloudflare Workers ([#13733](https://github.com/sveltejs/kit/pull/13733))
+
+- Updated dependencies [[`cb9d416`](https://github.com/sveltejs/kit/commit/cb9d416d05266b6237f2856fb94df5b8a9b04279), [`caf3a18`](https://github.com/sveltejs/kit/commit/caf3a18de6581ab7d454d6fa8ad37ebdbdef95e6), [`4777827`](https://github.com/sveltejs/kit/commit/4777827246727045cf0209399751377564e7951d), [`a2792e2`](https://github.com/sveltejs/kit/commit/a2792e2cdc2dee91c20c7bfd921a104b539abae5), [`e2f3075`](https://github.com/sveltejs/kit/commit/e2f3075ef299b91175fae116e6a76269002029cf), [`e2f3075`](https://github.com/sveltejs/kit/commit/e2f3075ef299b91175fae116e6a76269002029cf), [`d06affc`](https://github.com/sveltejs/kit/commit/d06affc9246c676fc32b644efc0bbf53b42bc67d), [`244838c`](https://github.com/sveltejs/kit/commit/244838cf3db806c5f92a09b8b860511da09f27ed), [`64f484f`](https://github.com/sveltejs/kit/commit/64f484fb34f362f296e4a96b5a5269cab4389a0c), [`e2f3075`](https://github.com/sveltejs/kit/commit/e2f3075ef299b91175fae116e6a76269002029cf), [`caf3a18`](https://github.com/sveltejs/kit/commit/caf3a18de6581ab7d454d6fa8ad37ebdbdef95e6), [`71e8205`](https://github.com/sveltejs/kit/commit/71e82053ace295607290b5c719f57b6f17ef9bd8), [`1d76212`](https://github.com/sveltejs/kit/commit/1d76212740f59ed58839ef569899c653870834fd), [`d28d372`](https://github.com/sveltejs/kit/commit/d28d372ab5a7f500e41af940453e0333a4a256bf)]:
+  - @sveltejs/kit@3.0.0-next.0
+
 ## 7.2.8
 ### Patch Changes
 
